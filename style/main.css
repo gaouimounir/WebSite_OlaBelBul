@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Source+Sans+Pro:wght@600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+/****************************** H E A D E R ******************************/
+
+.head-ola {
+    display: flex;
+    flex-direction: row;
+    background-color: #202020;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2em 0em 1em 0em;
+    position: fixed;
+    z-index: 1;
+}
+
+.text-head-before-responsive {
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+}
+
+.head-logo {
+    filter: invert(1);
+    max-width: 33%;
+}
+
+.head-text {
+    color: white;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+.head-text:hover {
+    font-weight: bold;
+    color: #CCA05F;
+}
+
+/****************************** M A I N  P A G E ******************************/
+/****************************** B A N N I E R E *******************************/
+
+.bannier {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #202020 0.2em;
+    padding-top: 15vh;
+    margin-bottom: 5em;
+}
+
+#accueilVideo {
+    width: 100%;
+    height: 100%;
+    filter: blur(7px) grayscale(1);
+    ;
+}
+
+.brand-logo {
+    width: 50%;
+    position: absolute;
+    filter: invert(1);
+}
+
+/****************************** L E  K O M B U C H A ******************************/
+
+#cestQuoiLeKombucha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.titre-kombucha {
+    display: flex;
+    justify-content: center;
+}
+
+.bloc-text-kombucha {
+    background-color: #F7F7F7;
+    border-radius: 100px;
+    box-shadow: 7px -7px 4px #C7C7C7;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-kombucha {
+    width: 80%;
+    display: flex;
+}
+
+#bouteilleKombucha {
+    width: 25%;
+    height: auto;
+    transform: rotate(30deg);
+}
+
+.pour-le-kombucha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/****************************** L A   C O N T E N A N C E ******************************/
+
+.contenance {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.6em;
+}
+
+.titre-contenance {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.contenu-un,
+.contenu-deux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bouteilleContenance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    transform: rotate(-10deg);
+}
+
+.text-cont-un,
+.text-cont-deux,
+.text-cont-trois,
+.text-cont-quatre {
+    border: solid #C7C7C7;
+    padding: 0.4em;
+}
+
+.text-cont-un {
+    border-radius: 42% 29% 32% 49%;
+}
+
+.text-cont-deux {
+    border-radius: 35% 27% 44% 54%;
+}
+
+.text-cont-trois {
+    border-radius: 53% 39% 44% 40%;
+}
+
+.text-cont-quatre {
+    border-radius: 24% 44% 24% 53%;
+}
+
+.fleche-cont-un,
+.fleche-cont-deux,
+.fleche-cont-trois,
+.fleche-cont-quatre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.arrow-un,
+.arrow-deux,
+.arrow-trois,
+.arrow-quatre {
+    width: 40%;
+}
+
+.arrow-un {
+    transform: rotate(45deg);
+}
+
+.arrow-deux {
+    transform: rotate(135deg) scaleX(-1);
+}
+
+.arrow-trois {
+    transform: rotate(-40deg) scaleX(-1);
+}
+
+.arrow-quatre {
+    transform: rotate(230deg);
+}
+
+/****************************** L E S   S A V E U R S ******************************/
+
+.toolbar ul {
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.toolbar ul li {
+    display: inline-block;
+}
+
+.toolbar ul li+li {
+    margin-left: 5em;
+}
+
+.slider {
+    -webkit-backface-visibility: hidden;
+    text-align: center;
+    transform-origin: 50% 50%;
+}
+
+.slider img {
+    background-color: white;
+    padding: 1em;
+    border-radius: 6px;
+    box-shadow: 0 0 8px black;
+}
+
+.carouss-image {
+    max-width: 50%;
+}
+
+.titre-saveur {
+    display: flex;
+    justify-content: center;
+}
+
+#sliderPrevious, #sliderNext{
+    border-radius: 20%;
+    height: 3em;
+}
+
+/***************************** LES VALEURS **********************/
+
+.mesValeurs{
+    display: flex;
+    flex-direction: column;
+}
+
+.valeurs-titre{
+    display: flex;
+    justify-content: center;
+}
+
+.valeur-text{
+    width: 80%;
+    display: flex;
+    text-align: center;
+}
+
+.valeur{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 5%;
+}
+
+.valeur img{
+    width: 50%;
+    border-radius: 20%;
+}
+
+/***************************** MES OFFRES **********************/
+
+.mesOffres{
+    display: flex;
+    justify-content: space-between;
+}
+
+.offres-titre{
+    display: flex;
+    justify-content: center;
+}
+
+.bulle{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.bulle p{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#videoTrait{
+    height: 13.4rem;
+    width: 80%;
+    border-radius: 21vh;
+}
+
+#particulier{
+    width: 75%;
+    border-radius: 30%;
+    object-fit: contain;
+}
+
+#pro{
+    width: 75%;
+    border-radius: 30%;
+}
+
+/****************************** R E M E R C I E M E N T S ******************************/
+
+.remerciement-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.remerciement-titre{
+    display: flex;
+    justify-content: center;
+}
+
+.remerciements{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+/****************************** F O O T E R ******************************/
+
+.foot-ola {
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    justify-content: center;
+    padding-bottom: 5em;
+
+}
+.link-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.link-social img{
+    width: 60px;
+    margin: 40px;
+}
+.footer-bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.foot-text,
+.foot-text-right {
+    color: white;
+    font-size: 1.4em;
+    text-decoration: none;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.foot-section-text {
+    text-align: left;
+}
+
+.foot-text:hover {
+    font-weight: bold;
+    color: #CCA05F;
+}
+
+.foot-text-right{
+    flex-direction: column;
+}
+
+.foot-section-contact{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.linkedin-logo-foot,
+.instagram-logo-foot{
+    width: 5%;
+    height: auto;
+}
+
+.link-linkedin,
+.link-instagram{
+    display: flex;
+    width: auto;
+}
+
+.link-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/****************************** P O L I C E ******************************/
+
+.nav {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.foot-text,
+.foot-text-right,
+.text-kombucha,
+.head-text,
+.contenance,
+.anim-text,
+.offre-text,
+.valeur-text,
+.remerciement-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.titre-kombucha,
+.titre-contenance,
+.titre-saveur,
+.anim-titre,
+.valeurs-titre,
+.offres-titre,
+.remerciement-titre {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 5em;
+    text-shadow: 5px 5px rgba(204, 160, 95, 0.8);
+}
+
+.offre-petit-titre {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3em;
+    text-shadow: 3px 3px rgba(204, 160, 95, 0.8);
+}

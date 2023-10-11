@@ -1,0 +1,88 @@
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.anim-titre{
+	display: flex;
+    justify-content: center;
+}
+
+.anim-text{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.navBar::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+/* header */
+
+.prez p {
+	margin-top: 10px;
+	margin: 0px 40px 50px 40px;
+}
+
+/* .work */
+
+.work {
+	text-align: center;
+	width: 100%;
+}
+
+.work img {
+	margin: 1%;
+	width: 40%;
+}
+
+/* header2 */
+
+.header2 {
+	margin: 130px 40px 80px 40px;
+}
+
+/* .work2 */
+.work2 {
+	width: 100%;
+	text-align: center;
+}
+
+.work2 img {
+	margin: 1%;
+	width: 40%;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 991px) {
+
+	.work img {
+		margin: 2%;
+		width: 90%;
+	}
+
+	.header2 {
+		margin: 130px 0 40px 12px;
+	}
+
+	.header2 p {
+		width: 90%;
+	}
+
+	.work2 img {
+		margin: 2%;
+	}
+}

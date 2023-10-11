@@ -1,0 +1,80 @@
+/****************************** R E S P O N S I V E ******************************/
+
+@media (max-width: 1100px) {
+
+    /***** H E A D *****/
+    .head-ola {
+        display: flex;
+        flex-direction: column;
+        height: 13%;
+    }
+
+    .head-logo {
+        max-width: 50%;
+    }
+
+    .text-head-before-responsive {
+        visibility: hidden;
+        font-size: 0.1em;
+    }
+
+    #menu {
+        visibility: visible;
+    }
+
+    /***** L E   K O M B U C H A *****/
+    #pageKombucha {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titre-kombucha {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        font-size: 3.6em;
+    }
+
+    #cestQuoiLeKombucha {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        font-size: 0.9em;
+    }
+
+    #bouteilleKombucha {
+        width: 15%;
+    }
+
+    .mesOffres{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .anim-titre,
+    .titre-contenance,
+    .titre-saveur,
+    .offres-titre,
+    .remerciement-titre {
+        font-size: 3.6em;
+    }
+
+    .offre-petit-titre{
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .titre-contenance,
+    .titre-kombucha,
+    .titre-saveur,
+    .anim-titre,
+    .offres-titre,
+    .remerciement-titre {
+        font-size: 2.5em;
+    }
+}
